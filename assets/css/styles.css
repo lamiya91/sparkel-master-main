@@ -1,0 +1,210 @@
+/**
+* URL: htts:bdtask.com
+* Company Name: bdtask
+* Author: Munir Mahmud
+* Email: munirmahmud6@gmail.com
+* 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #707070;
+}
+
+p {
+    line-height: 2.2;
+}
+img {
+    /* width: 100%; */
+}
+
+.bt-btn {
+    border: 1px;
+    border-style: solid;
+    border-color: transparent;
+
+    font-size: 10px;
+    background-color: #ffe500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 18px 35px;
+    transition: all 300ms ease-in-out;
+}
+.bt-btn:hover {
+    border-color: #ffe500;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.hero-section {
+    background-color: #1a1a1a;
+}
+
+.menu-icon {
+    width: 22px;
+    cursor: pointer;
+    margin-left: auto;
+}
+.menu-icon span {
+    background-color: #ffe500;
+    width: 100%;
+    height: 2px;
+    display: block;
+    margin-bottom: 3px;
+    text-align: right;
+}
+.menu-icon span:nth-child(2) {
+    width: 80%;
+    margin-left: auto;
+}
+.menu-icon span:nth-child(3) {
+    width: 60%;
+    margin-left: auto;
+}
+
+/* HERO */
+.hero {
+    height: 400px;
+    position: relative;
+}
+.hero .row {
+    height: 100%;
+}
+.hero-content {
+    height: 100%;
+    color: white;
+}
+.hero-content h1 {
+    font-size: 20px;
+    letter-spacing: 15px;
+    margin-bottom: 25px;
+}
+.hero-content p {
+    margin-bottom: 35px;
+    font-size: 13px;
+}
+.hero .arrow-down {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.hero .arrow-down:hover {
+    bottom: 22px;
+}
+
+/* ABOUT */
+.about {
+    padding: 100px 0;
+    background-color: #fff;
+}
+.about img {
+    margin-bottom: 60px;
+}
+
+.services {
+    background-color: #f4f4f4;
+    padding-top: 80px;
+}
+.heading {
+    margin-bottom: 80px;
+}
+.heading img {
+    margin-bottom: 30px;
+}
+.heading h2 {
+    margin-bottom: 25px;
+    color: #1b1b1b;
+    font-size: 20px;
+    letter-spacing: 12px;
+}
+
+/* SERVICE */
+.service-content-wrapper {
+    margin-bottom: 40px;
+}
+.service-card {
+    background-color: #fff;
+    padding: 35px 20px 20px;
+    margin-bottom: 25px;
+}
+.service-card-footer {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.service-line {
+    margin-bottom: 18px;
+}
+.service-line h5 {
+    font-size: 13px;
+    font-weight: 700;
+}
+.service-line-bg {
+    background-color: #f4f4f4;
+    height: 8px;
+    width: 100%;
+}
+.service-line-front-bg {
+    background-color: #ffe500;
+    height: 8px;
+}
+
+
+/* PROJECTS CARD */
+.projects-card-wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.projects-card-wrapper .card {
+    border-radius: 0;
+    background-color: #fff;
+}
+.project-card h4 {
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+.project-card p {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+
+/* PORTFOLIO */
+.portfolio {
+    padding-top: 80px;
+}
+.portfolio-names {
+    border-top: 1px solid #1b1b1b;
+    border-bottom: 1px solid #1b1b1b;
+    font-size: 13px; /*1rem = 16px */    
+    color: #1b1b1b;
+    font-weight: 500;
+}
+.portfolio-card img {
+    width: 100%;
+}
+
+.portfolio-card {
+    transition: all 1s ease-in-out;
+}
+.hover-content {
+    visibility: hidden;
+}
+.portfolio-card:hover .hover-content {
+    visibility: visible;
+}
+
+.hover-content h3 {
+    font-size: 13px;
+    font-weight: 500;
+}
+.hover-content p {
+    font-size: 12px;
+    line-height: 1.5;
+}
